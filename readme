@@ -1,0 +1,17 @@
+
+<!-- ---in terminal----- -->
+<!-- create project -->
+npx create-expo-app --template
+
+npm install --save react-native-fbsdk-next
+
+npx expo install expo-dev-client
+<!-- for google signin you need to built anapp first -->
+<!-- built for android -->
+eas build --profile development --platform android
+
+<!-- to run app -->
+npx expo start --dev-client
+import 'expo-dev-client'
+<!-- scan qr code copy the text url and paste in builted app -->
+

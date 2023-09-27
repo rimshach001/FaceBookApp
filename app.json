@@ -2,6 +2,16 @@
   "expo": {
     "name": "FaceBookApp",
     "slug": "FaceBookApp",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "665123115566639",
+          "clientToken": "f100ba417d877fdf92c56568cc7b341e",
+          "displayName": "expoFirebase"
+          }
+      ]
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +31,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rimsha001.FaceBookApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad932583-6ef4-4b17-9f29-e60218f3f849"
+      }
     }
   }
 }
